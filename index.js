@@ -22,4 +22,4 @@ client.on('ready', () => {
     client.user.setGame('Game');
 });
 
-client.login('Your Secret Token');
+client.login(process.env.BOT_TOKEN);
